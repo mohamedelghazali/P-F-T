@@ -1,0 +1,13 @@
+The Personal Finance Tracker will be developed with a modular approach to separate core functionalities such as data handling, visualizations, and user interface.
+
+Core Components:
+
+Database: Uses SQLite for transaction storage, implementing tables for transactions and savings goals.
+
+Data Management: Functions to add, edit, delete, and retrieve transactions and savings goals.
+
+Reporting & Visualization: Generate monthly reports and visual insights, using matplotlib for bar and pie charts.
+
+CSV Import/Export: File management for data backup and analysis in external tools.
+
+User Interface (UI): A graphical interface to interact with all features, likely using tkinter for simplicity and local deployment.

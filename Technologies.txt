@@ -1,0 +1,5 @@
+Technologies
+SQLite for local, lightweight database storage.
+pandas for data importexport (CSV handling).
+tkinter for building a GUI interface.
+matplotlib for creating bar and pie charts.
