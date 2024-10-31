@@ -1,0 +1,3 @@
+plt
+tkinter
+sqlite3
