@@ -59,19 +59,19 @@ Create a summary view with quick statistics like highest expense category and to
 # Project Structure
 finance_tracker/
 │
-├── main.py               # Main application entry point .
+├── main               # Main application entry point .
 
-├── database.py           # SQLite database handling .
+├── database          # SQLite database handling .
 
-├── models.py             # Classes for Transaction, Category, Goal .
+├── models            # Classes for Transaction, Category, Goal .
+ 
+├── views             # GUI components using tkinter .
 
-├── views.py              # GUI components using tkinter .
+├── reports           # Report generation and data aggregation .
 
-├── reports.py            # Report generation and data aggregation .
+├── visualizations    # Matplotlib-based visualizations . 
 
-├── visualizations.py     # Matplotlib-based visualizations . 
-
-├── utils.py              # Helper functions (e.g., date formatting) . 
+├── utils.           # Helper functions (e.g., date formatting) . 
 
 └── requirements.txt      # Package requirements . 
 
