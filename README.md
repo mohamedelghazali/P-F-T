@@ -27,3 +27,58 @@ Data Visualization: Create insightful charts using Matplotlib or Seaborn for vis
 Tkinter: Build a simple, intuitive graphical user interface that enhances the user experience.
 
 This project is an excellent opportunity to apply essential programming skills, including file handling, data manipulation, database management, and data visualization, within a practical and impactful context.
+
+# Feature Implementation Breakdown
+
+Transaction Tracking:
+
+Create Transaction and Category classes.
+Implement SQLite database management with CRUD operations for transactions, storing date, amount, category, and notes.
+Monthly Summary Reports:
+
+Generate a monthly report that calculates total income, expenses, and net savings.
+Store summaries for quick access, and use them for visual representations.
+Category-wise Expense Reports:
+
+Aggregate expenses by category and create pie charts for visual insight.
+Savings Goals:
+
+Define a Goal class that holds a target amount and tracks progress.
+Display progress in the UI with a bar chart or progress indicator.
+CSV Import/Export:
+
+Functions to export transactions and goals to CSV and import them back.
+Use pandas for easier manipulation and file handling.
+Filtering and Sorting (Could-Have):
+
+Extend database queries to support sorting and filtering by date, category, and amount.
+Dashboard View (Could-Have):
+
+Create a summary view with quick statistics like highest expense category and total savings.
+
+# Project Structure
+finance_tracker/
+│
+├── main.py               # Main application entry point
+├── database.py           # SQLite database handling
+├── models.py             # Classes for Transaction, Category, Goal
+├── views.py              # GUI components using tkinter
+├── reports.py            # Report generation and data aggregation
+├── visualizations.py     # Matplotlib-based visualizations
+├── utils.py              # Helper functions (e.g., date formatting)
+└── requirements.txt      # Package requirements
+
+# Technologies
+
+SQLite for local, lightweight database storage.
+pandas for data importexport (CSV handling).
+tkinter for building a GUI interface.
+matplotlib for creating bar and pie charts.
+
+# Installation and Setup :
+
+1 - Clone the repository: git clone https://github.com/yourusername/BreadcrumbsPersonal-Finance-Tracker.git .
+
+2 - Install required dependencies with pip install -r requirements.txt .
+
+3 - Run the application with python main.py .
