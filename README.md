@@ -77,8 +77,8 @@ matplotlib for creating bar and pie charts.
 
 # Installation and Setup :
 
-1 - Clone the repository: git clone https://github.com/yourusername/BreadcrumbsPersonal-Finance-Tracker.git .
+1 - Clone the repository: git clone `https://github.com/mohamedelghazali/Personal-Finance-Tracker` .
 
-2 - Install required dependencies with pip install -r requirements.txt .
+2 - Install required dependencies with `pip install -r requirements.txt` .
 
-3 - Run the application with python main.py .
+3 - Run the application with python `main.py` .
