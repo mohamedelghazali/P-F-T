@@ -1,4 +1,4 @@
-# Personal Finance Tracker  (Intermediate Course Python): 
+# Personal Finance Tracker  (Intermediate Python Course): 
 This project is part of a training course for intermediate level developers and also aimed at those who want to gain practical experience .
 The project is a user-friendly tool designed to help individuals efficiently manage their finances. This application enables users to log and categorize their expenses and income, track monthly spending, set savings goals, and view financial reports that offer a clear overview of their financial health. With intuitive features like monthly summaries and category-wise breakdowns, users can easily gain insights into their spending habits and adjust their budgets to meet financial goals.
 
